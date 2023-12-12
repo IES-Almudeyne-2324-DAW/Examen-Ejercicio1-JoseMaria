@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Sobre Sevilla</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+
+        <!-- Bootstrap CSS v5.2.1 -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"
+        />
+        <link href="styles.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>Sobre Sevilla...</h1>
+        </header>
+        <main>
+            <p>Sevilla es un municipio y una ciudad de España, capital de la provincia homónima y de Andalucía.6​ Contaba con 681 998 habitantes en 2022,7​ por lo que es la ciudad más poblada de Andalucía, la cuarta de España según los datos oficiales del INE8​ y la quinta según los datos provisionales de los padrones municipales de 2023.9​ El municipio tiene una superficie de 141,4 km².10​ El área metropolitana de Sevilla está compuesta por 46 municipios, incluye a una población de 1 548 741 habitantes (INE 2020) y ocupa una superficie de 4905,04 km².11​ Sevilla, al disponer de su Real Alcázar, es una de las cuatro ciudades donde la familia real española tiene residencia oficial, junto con Madrid, Barcelona y Palma.</p>
+            <article>
+                <img src="images/1.jpg">
+            </article>
+            <p>Su casco antiguo, con 3,9 km², es el más extenso de España y el sexto más grande de Europa, tras los de Roma (14,6 km²),13​ Nápoles (10,3 km²),14​ Venecia (7,6 km²),15​ Florencia (5,5 km²)16​ y Génova (4,1 km²).17​ Sevilla es una de las ciudades con más monumentos catalogados en Europa. Su casco histórico es uno de los mayores de España18​ (nótese la diferencia entre casco antiguo, que solo incluye la zona histórica anterior a la Revolución Industrial, y casco histórico, que abarca estadios posteriores). Su patrimonio histórico y monumental y sus diversos espacios escénicos y culturales la constituyen en ciudad receptora de turismo nacional e internacional. Es la tercera ciudad de España por número de visitantes, tras Barcelona y Madrid. Entre sus monumentos más representativos se encuentran la catedral (que incluye la Giralda), el Alcázar, el Archivo de Indias y la Torre del Oro, los tres primeros declarados Patrimonio de la Humanidad por la Unesco en 1987.</p>
+        </main>
+        <footer>
+            <!-- place footer here -->
+        </footer>
+        <!-- Bootstrap JavaScript Libraries -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"
+        ></script>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+    
+
+
+----------- UNIDAD 1: BÁSICOS -----------
+
+
+
+git init - Iniciar repositorio local
+
+git add * - Añadir al commit todos los cambios realizados
+
+git commit -m "mensaje" - Hacer commit de los cambios (titulo/mensaje)
+
+git remote add origin "url" - Enlazar con el repositorio remoto (url)
+
+git push -u origin main - Hacer primer push al repo remoto
+
+git push - Hacer push a partir del primer push ya hecho
+
+
+
+----------- UNIDAD 2: MARKDOWN -----------
+
+
+
+# encabezado = h1 ... ###### = h6
+
+> cita linea 1
+> cita linea 2
+
+- elemento de lista = li (ul)
+
+1. elemento d lista = li (ol)
+
+~~~
+
+Esto es un bloque de código
+
+~~~
+
+*letra cursiva*
+
+**letra negrita**
+
+***cursiva y negrita***
+
+[Esto es un enlace](url) = a
+
+`línea de codigo`
+
+![Texto alternativo](url) = img src=ulr
+
+\caracterEspecial - para poder escribir carácteres especiales
+
+
+
+----------- UNIDAD 3: CICLO VIDA FICHERO -----------
+
+
+
+git status - te muestra la rama actual, el commit actual y cambios añadidos al commit
+
+git log - muestra detalladamente los commits realizados
+
+git diff - muestra las diferencias de los ficheros sin modificar y los actuales
+
+
+
+----------- UNIDAD 4: FICHERO GITIGNORE -----------
+
+
+
+.gitignore - archivo ubicado en la raiz del proyecto y que especifica los archivos que no se subirán al repo
+
+*.exte - ignorar todos los archivos con x extensión
+
+*a* - ignorar todos los que tengan "a" en el nombre
+
+fichero.txt - ignorar un fichero específico
+
+/dir/ - ignorar todos los que estén en x directorio
+
+dir/*.exte - ignorar todos los que tengan x extensión en x directorio
+
+
+
+----------- UNIDAD 5: DESHACER CAMBIOS -----------
+
+
+
+git checkout - Deshace los cambios realizados hasta el último commit
+
+git checkout -- archivo.exte - Lo mismo pero especificando un archivo
+
+git reset - Deshace las confirmaciones de cambios
+
+git reset archivo - Deshace las del archivo específico
+
+git reset --soft HEAD~1 - Elimina el último commit realizado (sin deshacer los cambios del código)
+
+git reset --hard HEAD~1 - Elimina el último commit realizado (deshaciendo también los cambios del código)
+
+
+
+----------- UNIDAD 6: TIQUETAS (TAGS) -----------
+
+
+
+git tag -a v1.0 -m "Titulo version" - Crear etiqueta de versión (después del commit)
+
+git tag -n - Muestra todas las versiones del proyecto
+
+git push --tags - Sube al repo remoto las versiones
+
+Crear Release: Desde github/elRepo/tags/createReleaseFromTag
+
+
+
+----------- UNIDAD 7: PAGES -----------
+
+
+
+Crear página del proyecto (el html principal de raiz debe llamarse index):
+1 - ir a github/elRepo/settings/pages
+2 - opción de Source default
+3 - opción de Branch: elegimos main (la rama principal con el index) y le damos a save
+4 - esperamos unos segundos y recargamos página: Your site is live at https://tuPaginaURL
+
+
+
+----------- UNIDAD 8: RAMAS -----------
+
+
+
+git branch nombre_rama - Crear una rama nueva
+
+git checkout nombre_rama - Moverte a la rama especificada
+
+git checkout -b nombre_rama - Los dos comandos anteriores en uno
+
+git branch -v - Mostrar las ramas actuales y en cuál estamos
+
+git push --set-upstream origin nombre_rama - Subir cambios al repo remoto especificando la rama (necesario a cada q cambias rama)
+
+git merge otra_rama - Traer los cambios de una rama a la rama actual (fusión)
+
+
+
+----------- UNIDAD 9: CONFLICTOS -----------
+
+
+
+----------- UNIDAD 10: GITFLOW -----------
+
+
+
+git flow init - Iniciar el git flow (hace muchas preguntas: solo pon main en la primera [master])
+
+^^Este comando nos pone en la rama develop ya que es en la que se trabajará siempre^^
+
+^^Por lo que será necesario poner git push --set-upstream origin nombre_rama (debido al cambio de rama)^^
+
+git flow feature start rama_feature - Crea una rama de funcionalidades
+
+git flow feature finish rama_feature - Finalizar rama de funcionalidades (la fusiona con develop y la elimina)
+
+git flow release start 0.1.0 - Iniciar rama release
+
+git flow release finish '0.1.0' - Finalizar rama release
+
+git flow hotfix start rama_hotfix - Crear una rama hotdix
+
+git flow hotfix finish hotfix_branch - Finalizar rama hotfix
+
+
+
+
+
+
+
+
+-->
